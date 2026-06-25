@@ -1,8 +1,28 @@
+import Navbar from './sections/Navbar'
+import Hero from './sections/Hero'
+import Destinations from './sections/Destinations'
+import WhyUs from './sections/WhyUs'
+import Testimonials from './sections/Testimonials'
+import InquiryForm from './sections/InquiryForm'
+import CTABanner from './sections/CTABanner'
+import Footer from './sections/Footer'
+import WhatsAppWidget from './components/WhatsAppWidget'
+
 function App() {
   return (
-    <div className="flex items-center justify-center mmin-h-screen bg-blue-500">
-      <h1 className="text-4xl font-bold text-white">Tailwind is working!</h1>
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Destinations />
+        <WhyUs />
+        <Testimonials />
+        <InquiryForm />
+        <CTABanner />
+      </main>
+      <Footer />
+      <WhatsAppWidget />
+    </>
   )
 }
 
