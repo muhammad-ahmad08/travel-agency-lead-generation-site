@@ -8,11 +8,12 @@ import CTABanner from './sections/CTABanner'
 import Footer from './sections/Footer'
 import WhatsAppWidget from './components/WhatsAppWidget'
 
+
 function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main id="main-content">
         <Hero />
         <Destinations />
         <WhyUs />
