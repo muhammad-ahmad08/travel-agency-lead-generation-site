@@ -26,7 +26,7 @@ export default function InquiryForm() {
     const { name, email, destination, message } = formData;
 
     try {
-      const response = await fetch("https://formspree.io/f/mzdldkew", {
+      const response = await fetch(import.meta.env.VITE_FORMSPREE_ENDPOINT, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -40,7 +40,7 @@ export default function InquiryForm() {
       setStatus("success");
 
       const text = `New Travel Inquiry 🌍%0A%0AName: ${name}%0AEmail: ${email}%0ADestination: ${destination}%0AMessage: ${message}`;
-      window.open(`https://wa.me/923245693908?text=${text}`, "_blank");
+      window.open(`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER}?text=${text}`, "_blank");
 
       setFormData({ name: "", email: "", destination: "", message: "" });
     } catch (error) {

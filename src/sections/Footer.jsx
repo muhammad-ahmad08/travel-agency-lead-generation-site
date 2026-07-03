@@ -40,7 +40,7 @@ export default function Footer() {
             <li>📍 123 Travel Street, Lahore</li>
             <li>
               <a
-                href="https://wa.me/923245693908"
+                href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition duration-300"

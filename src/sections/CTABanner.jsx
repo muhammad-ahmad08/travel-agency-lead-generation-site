@@ -29,7 +29,7 @@ export default function CTABanner() {
           <Button
             text="Talk to an Expert"
             variant="secondary"
-            onClick={() => window.open('https://wa.me/923245693908', '_blank')}
+            onClick={() => window.open(`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER}`, '_blank')}
           />
         </div>
       </div>
