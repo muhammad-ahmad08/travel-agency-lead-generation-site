@@ -1,6 +1,6 @@
-# Wanderlust — Travel Agency Landing Page
+# Wanderlust — Travel Agency Lead Generation Site
 
-A fully responsive, SEO-optimised travel agency landing page built with React 19, Vite, and Tailwind CSS v4. Developed as a professional portfolio project following industry-standard practices including component architecture, environment variables, scroll animations, accessibility, and multi-channel lead generation.
+A fully responsive, SEO-optimised travel agency lead generation site built with React 19, Vite, and Tailwind CSS v4. Developed as a professional portfolio project following industry-standard practices including component architecture, environment variables, scroll animations, accessibility, and multi-channel lead generation.
 
 Live Demo: [wanderlust-travel-agency.vercel.app](https://travel-agency-lead-generation-site.vercel.app)
 
