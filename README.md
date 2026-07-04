@@ -10,7 +10,7 @@ Live Demo: [wanderlust-travel-agency.vercel.app](https://travel-agency-lead-gene
 
 | Desktop | Mobile |
 |---|---|
-| ![Desktop](./public/images/screenshot-desktop.png) | ![Mobile](./public/images/screenshot-mobile.png) |
+| ![Desktop](./public/images/screenshot-desktop.png) | ![Mobile](./public/images/screenshot-mobile.jpeg) |
 
 ---
 
