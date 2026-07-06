@@ -53,7 +53,7 @@ export default function InquiryForm() {
     "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-accent text-dark text-sm transition duration-300";
 
   return (
-    <section id="contact" className="py-24 bg-white">
+    <section id="contact" aria-label="Travel Inquiry Form" className="py-24 bg-white">
       <div
         ref={ref}
         className={`max-w-2xl mx-auto px-6 fade-up ${isVisible ? "visible" : ""}`}

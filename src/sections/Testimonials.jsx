@@ -32,7 +32,7 @@ export default function Testimonials() {
   const { ref, isVisible } = useScrollAnimation()
 
   return (
-    <section id="testimonials" className="py-24 bg-light">
+    <section id="testimonials" aria-label="Customer Testimonials" className="py-24 bg-light">
       <div
         ref={ref}
         className={`max-w-6xl mx-auto px-6 fade-up ${isVisible ? 'visible' : ''}`}
@@ -43,7 +43,7 @@ export default function Testimonials() {
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((t) => (
-            <div
+            <article
               key={t.id}
               className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
             >
@@ -60,7 +60,7 @@ export default function Testimonials() {
                   <p className="text-muted text-xs">{t.location}</p>
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://travel-agency-lead-generation-site.vercel.app/sitemap.xml

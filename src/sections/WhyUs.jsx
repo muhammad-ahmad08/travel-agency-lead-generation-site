@@ -44,7 +44,7 @@ export default function WhyUs() {
   const { ref, isVisible } = useScrollAnimation()
 
   return (
-    <section id="whyus" className="py-24 bg-white">
+    <section id="whyus" aria-label="Why Travel With Us" className="py-24 bg-white">
       <div
         ref={ref}
         className={`max-w-6xl mx-auto px-6 fade-up ${isVisible ? 'visible' : ''}`}

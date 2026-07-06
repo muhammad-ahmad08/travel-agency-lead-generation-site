@@ -1,16 +1,20 @@
 import Button from '../components/Button'
 
+
 export default function Hero() {
+
+
   return (
     <section
       id="hero"
+      aria-label="Hero"
       className="relative min-h-screen flex items-center justify-center text-white"
     >
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1000&q=60&fm=webp&auto=format')",
         }}
       />
 
@@ -18,7 +22,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-primary opacity-60" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto py-20">
+      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
         <p className="text-accent font-semibold uppercase tracking-widest text-sm mb-4">
           Your Journey Begins Here
         </p>
@@ -30,8 +34,16 @@ export default function Hero() {
           Let us take care of every detail.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button text="Explore Destinations" variant="primary" onClick={() => document.getElementById('destinations').scrollIntoView({ behavior: 'smooth' })} />
-          <Button text="Contact Us" variant="secondary" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })} />
+          <Button
+            text="Explore Destinations"
+            variant="primary"
+            onClick={() => document.getElementById('destinations').scrollIntoView({ behavior: 'smooth' })}
+          />
+          <Button
+            text="Contact Us"
+            variant="secondary"
+            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+          />
         </div>
       </div>
 

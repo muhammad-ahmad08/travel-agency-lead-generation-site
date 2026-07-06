@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark text-gray-400">
+    <footer aria-label="Site Footer" className="bg-dark text-gray-400">
 
       {/* Main Footer */}
       <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">

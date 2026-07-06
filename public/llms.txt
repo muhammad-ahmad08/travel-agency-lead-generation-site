@@ -1,0 +1,43 @@
+# Wanderlust Travel Agency
+
+> Wanderlust is a professional travel agency offering handcrafted travel experiences to the world's most breathtaking destinations. We specialize in international tour packages, honeymoon travel, safari adventures, and custom itinerary planning.
+
+## Services
+
+- International travel packages
+- Honeymoon and luxury travel
+- Safari and adventure tourism
+- Custom itinerary planning
+- 24/7 travel support
+
+## Featured Destinations
+
+- Bali, Indonesia — tropical temples, rice terraces, pristine beaches. From $899
+- Santorini, Greece — white-washed buildings, volcanic beaches, stunning sunsets. From $1,199
+- Kyoto, Japan — ancient temples, cherry blossoms, traditional culture. From $1,099
+- Machu Picchu, Peru — legendary lost city of the Inca Empire. From $1,299
+- Amalfi Coast, Italy — clifftop roads overlooking the Mediterranean. From $1,399
+- Safari, Kenya — the great migration and the Big Five. From $1,599
+
+## Why Choose Wanderlust
+
+- Global coverage across 80+ countries
+- Award winning service for 5 consecutive years
+- Best price guarantee
+- Safe and secure travel with insurance included
+- Tailored experiences for every budget and travel style
+- 24/7 emergency support
+
+## Contact
+
+- WhatsApp: +92 324 5693908
+- Email: info@wanderlust.com
+- Location: Lahore, Pakistan
+- Hours: Monday to Sunday, 9am to 6pm
+
+## Links
+
+- Homepage: https://travel-agency-lead-generation-site.vercel.app
+- Destinations: https://travel-agency-lead-generation-site.vercel.app/#destinations
+- Inquiry Form: https://travel-agency-lead-generation-site.vercel.app/#contact
+

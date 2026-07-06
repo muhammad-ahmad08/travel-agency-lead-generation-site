@@ -5,7 +5,7 @@ export default function CTABanner() {
   const { ref, isVisible } = useScrollAnimation()
 
   return (
-    <section className="bg-primary py-20">
+    <section className="bg-primary py-20" aria-label="Call to Action">
       <div
         ref={ref}
         className={`max-w-4xl mx-auto px-6 text-center fade-up ${isVisible ? 'visible' : ''}`}

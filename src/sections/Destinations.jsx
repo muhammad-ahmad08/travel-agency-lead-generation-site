@@ -51,7 +51,7 @@ export default function Destinations() {
   const { ref, isVisible } = useScrollAnimation()
 
   return (
-    <section id="destinations" className="py-24 bg-light">
+    <section id="destinations" aria-label="Featured Destinations" className="py-24 bg-light">
       <div 
         ref={ref}
         className={`max-w-6xl mx-auto px-6 fade-up ${isVisible ? 'visible' : ''}`}>

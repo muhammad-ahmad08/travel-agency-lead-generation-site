@@ -7,11 +7,12 @@ import InquiryForm from './sections/InquiryForm'
 import CTABanner from './sections/CTABanner'
 import Footer from './sections/Footer'
 import WhatsAppWidget from './components/WhatsAppWidget'
-
+import SEO from './components/SEO'
 
 function App() {
   return (
     <>
+      <SEO />
       <Navbar />
       <main id="main-content">
         <Hero />
