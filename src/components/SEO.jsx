@@ -104,6 +104,7 @@ export default function SEO() {
     <Helmet>
       {/* Primary Meta Tags */}
       <title>{title}</title>
+      <meta name="google-site-verification" content="pJTDjP6j0AqU4xMQ9B86j3wwkpGmyyBNjPa8Ku-B4q8" />
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="keywords" content="travel agency, holiday packages, tour packages, Bali tours, Santorini travel, Kenya safari, luxury travel, affordable travel, Wanderlust" />
